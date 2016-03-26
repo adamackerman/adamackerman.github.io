@@ -121,6 +121,11 @@ body{
 		height: 700px;
 		background-image: url("http://1-background.com/images/stars-1/stars-background-purple.jpg");
 	}
+
+	.projects a{
+		color: #ADD8E6;
+	}
+	
 	.projects h1{
 		color: silver;
 		font-family: 'Vollkorn';
