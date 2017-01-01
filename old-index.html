@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  		<link type="text/css" rel="stylesheet" href = "css/main.css" />
+  		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Vollkorn" />
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--Smooth SCroll Function-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+$(function() 
+{
+  $('a[href*=#]:not([href=#])').click(function() 
+  {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname)
+     {
+      var scrollto = $(this.hash);
+      scrollto = scrollto.length ? scrollto : $('[name=' + this.hash.slice(1) +']');
+      if (scrollto.length) 
+      {
+        $('html,body').animate(
+        {
+          scrollTop: scrollto.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
+<!--End Smooth Scroll Function-->
+
+
+</head>
+<title>Adam Ackerman</title>
+<body background = "aurora_background.jpg" >
+	
+	<div class = "nav">
+		<div>
+			<ul>
+				<li><a href = "#contact">Contact</a></li>
+				<li><a href = "#projects">Projects</a></li>
+				<li><a href = "#about">About</a></li>
+				<li><a href = "#home">Home</a></li>
+			</ul>
+		</div>
+
+	</div>
+	<div class = "frame" id = "home">
+		<div class = "container">
+			<h1>Adam Ackerman</h1>
+			<hr width="30%" color="white" style="margin: 0 auto">
+			<h2>Computer Programmer, Engineer, Astronomer</h2>
+			
+		</div>
+	</div>
+
+	<div class = "about" id = "about">
+
+			<div>
+				<h1>About Me</h1>
+				<p>I am a sophomore studying computer science at the University of Maryland, College Park. I am trying to take all that I can get from my college experience,
+				   including programming, participating in team projects, and learning more about what interests me. If I'm not pursuing my first passion, chances are that 
+				   I am pursuing my second, which is Astronomy.  Take a look at my projects below and feel free to contact me about any enquiries. </p>
+			</div>
+			
+	</div>
+
+	<div class = "projects" id = "projects">
+		<h1>Projects</h1>
+		<div style="width: 50%; float: left;">
+			<h2>Air Hockey</h2>
+			<p>Air hockey game written in java, play multiplayer or against the amazing AI!  Check it out on my <a href = "https://github.com/adamackerman/AirHockey">github</a> page.</p>
+		</div>
+
+		<div style="width: 50%; float: right;">
+			<h2>Engineers Without Borders: Ghana</h2>
+			<p>We are building a water pump and storage system for a small, rural community in Suma Ahenkro, Ghana. Check it out on the UMD EWB <a href = "http://www.ewb.umd.edu/projects/ghana-2014">Website</a>.</p>
+		</div>
+
+		<div style="width: 50%; float: left;">
+			<h2>Pittsburgh Dataworks Datajam</h2>
+			<p>Data Analysis Project on correlating economic factors among the states, which won first place!  View more info <a href = "http://pghdataworks.org/pittsburgh-high-school-data-jam-1/">here</a>.</p>
+		</div>	
+
+		<div style="width: 50%; float: right;">
+			<h2>Astronomy Workshop</h2>
+			<p>Performing research with Dr. Hamilton on his Astronomy Website. Completing back-end updates and front-end improvements in the near future. Visit the website <a href = "http://janus.astro.umd.edu">here</a>.</p>
+		</div>	
+	</div>
+
+	<div class = "contact" id = "contact">
+		<h1>Contact Me</h1>
+		<p>Send me an email at aackermanmd@yahoo.com and feel free to view any of the information below:</p>
+		
+	
+		<div class = "contactoption">
+			<li><a href = "mailto:aackermanmd@yahoo.com">Email</a></li>
+			<li><a href = "https://www.dropbox.com/s/5vyr1bajq8udtcm/CollegeResume.docx?dl=0">Resume</a></li>
+			<li><a href = "https://www.linkedin.com/in/adam-ackerman-54837ab9">LinkedIn</a></li>
+			<li><a href = "https://github.com/adamackerman">GitHub</a></li>
+		</div>
+
+	</div>
+
+
+	<div class = "endbar">
+		<h4>&copy; Adam Ackerman 2016</h4>
+		<h4>Image Credit: NASA</h4>
+	</div>
+
+</body>
+</html>

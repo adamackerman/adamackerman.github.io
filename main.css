@@ -1,0 +1,32 @@
+.jumboMods
+{
+	background-color: #B3354A;
+	font-family: "Baloo Thambi";
+	color: white;
+	height: 140px;
+	padding-top: 20px;
+
+}
+
+#slideshow
+{
+	max-width: 650px;
+	position: relative;
+	margin: auto;
+
+}
+
+#slideshow > div
+{
+	width: 650px;
+	height: 375px;
+	background: #B3354A;
+	position: absolute;
+	
+}
+
+.containerMods
+{
+	padding-top: 425px;
+	padding-left: 173px;
+}
