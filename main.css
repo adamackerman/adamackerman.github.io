@@ -10,7 +10,7 @@
 
 #slideshow
 {
-	width: 650px;
+	width: 40%;
 	max-width: 100%;
 	position: relative;
 	margin: auto;
@@ -19,7 +19,6 @@
 
 #slideshow > div
 {
-
 	background: #B3354A;
 	position: absolute;
 	margin: auto;
@@ -35,7 +34,7 @@
 
 img {
 	display: inline-block;
-	max-width: 30%;
+	max-width: 100%;
 	height: auto;
 	width: auto;
 }
