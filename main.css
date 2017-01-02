@@ -10,7 +10,8 @@
 
 #slideshow
 {
-	max-width: 650px;
+	width: 650px;
+	max-width: 100%;
 	position: relative;
 	margin: auto;
 
@@ -22,11 +23,20 @@
 	height: 375px;
 	background: #B3354A;
 	position: absolute;
+	margin: auto;
+	max-width: 100%;
 	
 }
 
-.containerMods
+.imglink
 {
 	padding-top: 425px;
-	padding-left: 173px;
+	word-spacing: 30px;
+	margin: auto;
+	text-align: center;
 }
+
+img {
+	display: inline-block;
+}
+
