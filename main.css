@@ -11,7 +11,7 @@
 #slideshow
 {
 	width: 650px;
-	max-width: 80%;
+	max-width: 100%;
 	position: relative;
 	margin: auto;
 
@@ -24,6 +24,8 @@
 	position: absolute;
 	margin: auto;
 	max-width: 100%;
+	height: auto;
+	width: auto;
 	
 }
 
