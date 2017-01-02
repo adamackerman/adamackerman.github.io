@@ -10,8 +10,8 @@
 
 #slideshow
 {
-	width: 40%;
-	max-width: 100%;
+	width: 625px;
+	max-width: 75%;
 	position: relative;
 	margin: auto;
 
@@ -22,6 +22,7 @@
 	background: #B3354A;
 	position: absolute;
 	margin: auto;
+	display: block;
 }
 
 .imglink
